@@ -51,3 +51,19 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ntuclass/my-first-website.git
 git push -u origin main
+
+#如何開一個新的分支(Branch)
+
+git checkout -b feature/chat-room
+
+#如何得知目前分支的狀況
+
+git status
+
+#切換分支
+
+git checkout 分支名稱
+
+#查詢專案所有分支
+
+git branch -a
